@@ -207,9 +207,15 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 16px); }
   box-shadow: 0 6px 14px -8px rgba(30, 111, 255, 0.5);
 }
 
-.logo--footer .logo-text strong { font-size: 0.92rem; }
-.logo--footer .logo-text small { font-size: 0.72rem; }
-.logo--footer:hover .logo-text strong { color: var(--accent); }
+.footer-logo { display: inline-flex; flex: none; }
+
+.footer-logo img {
+  display: block;
+  width: auto;
+  height: 56px;
+}
+
+.footer-logo:hover { opacity: 0.85; }
 
 .logo-text { display: flex; flex-direction: column; line-height: 1.25; }
 .logo-text strong { font-size: 1rem; font-weight: 800; letter-spacing: -0.02em; }
@@ -1126,6 +1132,7 @@ section[id] { scroll-margin-top: calc(var(--header-h) + 16px); }
   .contact-list { grid-template-columns: 1fr; }
 
   .footer-inner { flex-direction: column; align-items: flex-start; }
+  .footer-logo img { height: 46px; }
 }
 
 @media (max-width: 420px) {

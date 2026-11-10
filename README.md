@@ -16,9 +16,11 @@
 ## Структура
 
 ```
-index.html            — разметка и контент
-css/style.css         — стили, адаптив, анимации
-assets/logo-mark.svg  — логотип, иконка сайта и favicon
+index.html              — разметка и контент
+css/style.css           — стили, адаптив, анимации
+assets/logo-mark.svg    — иконка логотипа и favicon
+assets/logo-lockup.png  — логотип с подписью для подвала
+assets/logo.png         — исходный PNG логотипа
 ```
 
 ## Как открыть
